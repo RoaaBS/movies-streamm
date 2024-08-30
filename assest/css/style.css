@@ -20,7 +20,8 @@
 
 .container .icon {
     background-color: #FFA41C;
-    margin-left: 60px;
+    margin-left: 10px;
+    margin-right: 60px;
     width: 30px;
     height: 30px;
     border-radius: 10px;
@@ -35,14 +36,27 @@
 .container h2{
     margin-left: 80px;
 }
-.container .rectangle{
-    width: 8px;
-/* height: 1146px; */
-left: 20px;
-gap: 0px;
-color: aliceblue;
+ .rectangle{
+  position: absolute;  
+    left: 264px;         
+    top: 0;              
+    width: 8px;        
+    height: 100vh;      
+    background-color: #272626; 
+    z-index: -1;   
+
 
 }
+.vertical-line {
+    position: absolute; 
+    left: 1150px;         
+    top: 0;              
+    width: 8px;        
+    height: 100vh;       
+    background-color: #272626;  
+    z-index: -1;         
+}
+
 ul {
     list-style:none;
 }
@@ -58,11 +72,14 @@ font-weight:100;
 
 
 }
-.nav-right h4.Genre{
+.nav-right h3.Genre{
 margin-top: 70px;
+margin-left: 30px;
+font-weight: 600;
+
 }
-.nav-right .Genre  ul{
-    margin-top: 20px;
+.nav-right   li{
+   
     padding-top: 10px;
    padding-bottom: 10px;
 }
@@ -80,9 +97,11 @@ gap: 0px;
 opacity: 0px;
 
 }
-.nav-left svg{
-    margin-left: 10px;
+.nav-left  .nav-bottom-icons svg{
+   margin-left: 30px;
 }
+
+
 .nav-left{
     display: flex;
     flex-direction: column;
@@ -127,8 +146,10 @@ border-radius: 50px;
  .on-off{
     background-color:#92740A5C;
     border-radius: 50px;
-    Width:40px;
+    Width:30px;
     Height:18px;
+    margin-top: 10px;
+    margin-right: 10px;
  
 
 }
@@ -150,6 +171,7 @@ border-radius: 50px;
 width: 100px;
     margin-top: 40px;
     display: flex;
+    justify-content: center;
   
 }
 body{
@@ -253,4 +275,93 @@ body{
 .content-right h3 {
     margin-top: -30px;
     font-weight: lighter;
+}
+.backgroung-body{
+ background: radial-gradient(85.71% 216.94% at 8.49% 55.27%, #D09031 19.27%, #3F3E3C 82.29%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+ 
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color:  #FFFFFF;
+    margin-right: 250px;
+  
+}
+.row2 h1{
+padding-right: 20px;
+}
+.row2 h4{
+    padding-right: 20px;
+    font-weight: lighter;
+}
+.row2 .seeMore{
+    background-color: #181715;
+    color: #FFA41C;
+   padding-left: 10px;
+    width: 80px;
+    height: 20px;
+    border-color: black;
+    border-style: solid;
+    
+}
+.content-bottom .content-bottom1 img,
+.content-bottom .content-bottom2 img,
+.content-bottom .content-bottom3 img {
+    width: 250px;
+    height: 200px;
+    margin: 0 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: block; 
+}
+
+.content-bottom .content-bottom1 img{
+  
+    margin-left: 300px;
+   
+}
+
+.content-bottom .content-bottom3 img{
+    width: 200px;
+    height: 250px;
+
+  
+}
+
+.content-bottom .Shrek{
+    width: 180px;
+    height: 20px;
+    margin-left: 300px;
+    color: #FFFFFF;
+    border-color: black;
+    border-style: solid;
+    padding-left: 10px;
+    font-size: small;
+    font-weight: lighter;
+    display: flex;
+    justify-content: start;
+
+}
+.content-bottom .Riverdale{
+    width: 180px;
+    height: 20px;
+   margin-left: 30px;
+    color: #FFFFFF;
+    border-color: black;
+    border-style: solid;
+    padding-left: 10px;
+    font-size: small;
+    font-weight: lighter;
+    display: flex;
+    justify-content: start;
+
+}
+.content-bottom .Riverdale svg{
+    padding-left: 70px;
+}
+.content-bottom{
+    display: flex;
+    justify-content: start;
 }
