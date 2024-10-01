@@ -1,0 +1,367 @@
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background: #181715;
+   
+}
+.container input{
+    margin-left: 200px;
+    width: 300px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.container .icon {
+    background-color: #FFA41C;
+    margin-left: 10px;
+    margin-right: 60px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+.container .icon i{
+    color: aliceblue;
+  padding-top: 5px;
+  padding-left: 7px;
+  
+}
+.container h2{
+    margin-left: 80px;
+}
+ .rectangle{
+  position: absolute;  
+    left: 264px;         
+    top: 0;              
+    width: 8px;        
+    height: 100vh;      
+    background-color: #272626; 
+    z-index: -1;   
+
+
+}
+.vertical-line {
+    position: absolute; 
+    left: 1150px;         
+    top: 0;              
+    width: 8px;        
+    height: 100vh;       
+    background-color: #272626;  
+    z-index: -1;         
+}
+
+ul {
+    list-style:none;
+}
+.nav-right{
+    margin-left: 30px;
+    width: 81.6px;
+height: 14.1px;
+/* top: 1038px; */
+left: 1542.74px;
+gap: 0px;
+opacity: 0px;
+font-weight:100;
+
+
+}
+.nav-right h3.Genre{
+margin-top: 70px;
+margin-left: 30px;
+font-weight: 600;
+
+}
+.nav-right   li{
+   
+    padding-top: 10px;
+   padding-bottom: 10px;
+}
+.container .nav-right .Genre-Thriller{
+   
+    background-color: #FFA41C;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 60px;
+    padding-left: 7px;
+height: 20px;
+/* top: 969px; */
+left: 1542px;
+gap: 0px;
+opacity: 0px;
+
+}
+.nav-left  .nav-bottom-icons svg{
+   margin-left: 30px;
+}
+
+
+.nav-left{
+    display: flex;
+    flex-direction: column;
+   margin-bottom: 20px;
+   width: 60px;
+   height: 150px;
+   
+   
+}
+.nav-left i{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+
+.nav-left img{
+  margin-top: 50px;
+margin-right: 70px;
+border-radius: 50px;
+    
+}
+.nav-left .nav-left-bottom {
+    border-radius: 10px;
+    border-color: #A6A6A636;
+    border-style: solid;
+    Width:65px;
+    Height:500px;
+}
+.nav-left-bottom .circle{
+    background-color: #FFA41C;
+    color: aliceblue;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+   text-align: center;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+
+}
+ .on-off{
+    background-color:#92740A5C;
+    border-radius: 50px;
+    Width:30px;
+    Height:18px;
+    margin-top: 10px;
+    margin-right: 10px;
+ 
+
+}
+.on-off .circle{
+    border-radius: 50px;
+    Width: 16px;
+    Height:16px;
+    margin-top: 1px;
+    /* padding-top: 3px; */
+    background-color: aliceblue;
+}
+.nav-left .nav-left-bottom img{
+    width :40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.nav-bottom-icons{
+width: 100px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  
+}
+body{
+    height: 100vh;
+    background: #181715;
+}
+
+.content-left {
+    position: relative; 
+    width: 400px; 
+    margin-left: 280px; 
+    margin-top: 10px; 
+}
+.content-left img {
+    width: 400px; 
+    height: 200px;
+    border-radius: 20px;
+    z-index: 1;
+    display: block; 
+}
+
+.series {
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    background-color: aliceblue;
+    border-radius: 10px; 
+    color: #181715;
+    text-align: center;
+    padding: 5px; 
+    z-index: 2; 
+    display: flex; 
+    align-items: center; 
+}
+
+.content-body {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 500px;
+}
+
+.content-body h4 {
+    color: aliceblue;
+    margin-left: 20px; 
+    margin-top: -40px;
+    font-size: small;
+}
+
+.content-body h3 {
+    color: aliceblue;
+    margin-left: 20px; 
+    margin-top: -30px;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.content-right {
+    margin-top: 10px;
+    position: relative; 
+    width: 300px; 
+}
+
+.content-right img {
+    width: 300px; 
+    height: 200px;
+    border-radius: 20px;
+    display: block; 
+    margin-left: 30px;
+}
+
+.content-right .icon-top-left {
+    display: flex;
+    align-items: center;
+    position: absolute; 
+    top: 10px;
+    left: 30px; 
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 2; 
+}
+
+.content-right h2 {
+    color: aliceblue;
+    font-size: 14px;
+    margin-left: 5px; 
+}
+
+.content-right h4,
+.content-right h3 {
+    color: aliceblue;
+    margin-left: 50px;
+    font-size: small;
+}
+
+.content-right h4 {
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+
+.content-right h3 {
+    margin-top: -30px;
+    font-weight: lighter;
+}
+.backgroung-body{
+ background: radial-gradient(85.71% 216.94% at 8.49% 55.27%, #D09031 19.27%, #3F3E3C 82.29%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+ 
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color:  #FFFFFF;
+    margin-right: 250px;
+  
+}
+.row2 h1{
+padding-right: 20px;
+}
+.row2 h4{
+    padding-right: 20px;
+    font-weight: lighter;
+}
+.row2 .seeMore{
+    background-color: #181715;
+    color: #FFA41C;
+   padding-left: 10px;
+    width: 80px;
+    height: 20px;
+    border-color: black;
+    border-style: solid;
+    
+}
+.content-bottom .content-bottom1 img,
+.content-bottom .content-bottom2 img,
+.content-bottom .content-bottom3 img {
+    width: 250px;
+    height: 200px;
+    margin: 0 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: block; 
+}
+
+.content-bottom .content-bottom1 img{
+  
+    margin-left: 300px;
+   
+}
+
+.content-bottom .content-bottom3 img{
+    width: 200px;
+    height: 250px;
+
+  
+}
+
+.content-bottom .Shrek{
+    width: 180px;
+    height: 20px;
+    margin-left: 300px;
+    color: #FFFFFF;
+    border-color: black;
+    border-style: solid;
+    padding-left: 10px;
+    font-size: small;
+    font-weight: lighter;
+    display: flex;
+    justify-content: start;
+
+}
+.content-bottom .Riverdale{
+    width: 180px;
+    height: 20px;
+   margin-left: 30px;
+    color: #FFFFFF;
+    border-color: black;
+    border-style: solid;
+    padding-left: 10px;
+    font-size: small;
+    font-weight: lighter;
+    display: flex;
+    justify-content: start;
+
+}
+.content-bottom .Riverdale svg{
+    padding-left: 70px;
+}
+.content-bottom{
+    display: flex;
+    justify-content: start;
+}
